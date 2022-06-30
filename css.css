@@ -1,0 +1,67 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./image/matthias-munning-iuyR_HEwk24-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    color: #fff;
+    image-rendering: pixelated;
+}
+
+#header {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#bottom {
+    justify-content: center;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.date {
+    display: flex;
+}
+
+.time {
+    display: flex;
+    margin-top: 20px;
+}
+
+.object-timer {
+    text-align: center;
+    align-items: center;
+}
+
+#vietnam-time {
+    display: flex;
+}
+
+#us-time {
+    display: flex;
+    margin-left: 70px;
+}
+
+p {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+span {
+    margin: 0 40px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+h1 {
+    margin: 0 40px;
+}
